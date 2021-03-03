@@ -5,7 +5,7 @@ export default function NavBar() {
     return (
         <header className="navbar">
             <div className="container mx-auto flex justify-between">
-                <nav>
+                <nav className="flex">
                     <NavLink to="/" exact>
                         Omr
                     </NavLink>
