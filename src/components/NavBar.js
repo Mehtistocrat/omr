@@ -10,7 +10,7 @@ export default function NavBar() {
                         Omr
                     </NavLink>
                     <NavLink to="/project">
-                        Projects
+                        Project
                     </NavLink>
                     <NavLink to="/about">
                         About
