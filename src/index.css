@@ -36,3 +36,8 @@ body {
 .menustyle:hover{
   color: #fc0;
 }
+
+.menustyleactive{
+  background-color: rgba(255, 204, 0, 0.1);
+  border-radius: 20px;
+}
