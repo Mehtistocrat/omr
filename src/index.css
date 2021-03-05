@@ -3,8 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
 
 body {
-  background-image: "/desert.jpg";
   font-family: "Rubik";
+  overflow: hidden;
+  background-image: url("desert.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .prose img{
@@ -42,6 +47,5 @@ body {
 }
 
 .menustyleactive{
-  border: 3px solid #fc0;
-  border-radius: 20px;
+  color: #fc0;
 }
