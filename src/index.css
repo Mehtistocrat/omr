@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
 
 body {
-  background-color: #111;
+  background-image: "/desert.jpg";
   font-family: "Rubik";
 }
 
@@ -20,6 +20,7 @@ body {
 }
 
 .navbar{
+  background-color: rgba(255, 255, 255, 0.1);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -29,7 +30,10 @@ body {
   position: relative;
   font-size:36px;
   color: #fff;
+  margin: 0 20px 0 20px;
   padding: 0 20px 0 20px;
+  border: 3px solid rgba(255, 204, 0, 0);
+  border-radius: 20px;
   transition: .3s ease-in-out;
 }
 
@@ -38,6 +42,6 @@ body {
 }
 
 .menustyleactive{
-  background-color: rgba(255, 204, 0, 0.1);
+  border: 3px solid #fc0;
   border-radius: 20px;
 }
