@@ -27,7 +27,7 @@ export default function NavBar() {
                     </NavLink>
                 </nav>
             </div>
-            <div>
+            <div className="container mx-auto flex justify-center">
                 <SocialIcon
                     url=""
                     className=""
